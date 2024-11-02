@@ -5,8 +5,8 @@ RNIFilms+++/RNIAero+++
 *  * @Author: 🐈🐈🐈
 
 [rewrite_local]
-https?:\/\/rni\-endpoint\-films\-prd\-dbaeb2e5fce4g5hg\.z02\.azurefd\.net url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/RNIFilms/RNIAero+++.js
-https?:\/\/rni\-endpoint\-aero\-prd url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/RNIFilms/RNIAero+++.js
+https?:\/\/rni\-endpoint\-films\-prd\-dbaeb2e5fce4g5hg\.z02\.azurefd\.net url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/RNIFilms+++RNIAero+++.js
+https?:\/\/rni\-endpoint\-aero\-prd url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/RNIFilms+++RNIAero+++.js
 
 
 [MITM]
