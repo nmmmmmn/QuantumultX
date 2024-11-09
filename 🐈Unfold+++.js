@@ -7,7 +7,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/api\.revenuecat\.com url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/🐈Unfold+++.js 
+^https:\/\/api\.revenuecat\.com\/v1 url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/🐈Unfold+++.js 
 [mitm]
 hostname = api.revenuecat.com
 
