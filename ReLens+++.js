@@ -5,7 +5,7 @@
     \📷ReLens+++
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/ReLens+++.js
+^^https?:\/\/buy\.itunes\.apple\.com url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/ReLens+++.js
 
 [MITM]
 hostname = buy.itunes.apple.com
