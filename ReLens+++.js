@@ -36,7 +36,7 @@ Parr = {
       "is_trial_period": "false",
       "original_transaction_id": "540001260447637",
       "product_id": "com.risingcabbage.pro.camera.yearlysubscription",
-      "original_purchase_date_ms": "1688386974000",
+      "original_purchase_date_ms": "1640879429000",
       "expires_date_ms": "148204937166000"
     }
   ]
