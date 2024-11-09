@@ -7,13 +7,11 @@
         
 [rewrite_local]
 
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/ProCCD+++.js
+^https?:\/\/buy\.itunes\.apple\.com url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/ReLens+++.js
 
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/🌵OldRoll+++.js
 
 
-
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/ReLens+++.js
 
 
 ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/VSCO+++.js
@@ -36,4 +34,4 @@
 
 
 [mitm]
-hostname =  buy.itunes.apple.com, buy.itunes.apple.com, api.revenuecat.com, photos.adobe.io, *.oracle.bendingspoonsapps.com, server.zbisq.com, purchase-qingtu-api.b612kaji.com,api-qingtu.kajicam.com,purchase-tianyan-api.tianyancam.com,purchase-foodiecn-api.yiruikecorp.com
+hostname =  buy.itunes.apple.com, api.revenuecat.com, photos.adobe.io, *.oracle.bendingspoonsapps.com, server.zbisq.com, purchase-qingtu-api.b612kaji.com,api-qingtu.kajicam.com,purchase-tianyan-api.tianyancam.com,purchase-foodiecn-api.yiruikecorp.com
