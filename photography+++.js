@@ -35,4 +35,4 @@
 
 
 [mitm]
-hostname =  buy.itunes.apple.com, api.revenuecat.com, photos.adobe.io, *.oracle.bendingspoonsapps.com, server.zbisq.com, purchase-qingtu-api.b612kaji.com,api-qingtu.kajicam.com,purchase-tianyan-api.tianyancam.com,purchase-foodiecn-api.yiruikecorp.com
+hostname =  buy.itunes.apple.com, buy.itunes.apple.com, api.revenuecat.com, photos.adobe.io, *.oracle.bendingspoonsapps.com, server.zbisq.com, purchase-qingtu-api.b612kaji.com,api-qingtu.kajicam.com,purchase-tianyan-api.tianyancam.com,purchase-foodiecn-api.yiruikecorp.com
