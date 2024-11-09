@@ -7,8 +7,8 @@
         
 [rewrite_local]
 
-
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/🌵OldRoll+++.js,https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/ReLens+++.js
+^^https?:\/\/buy\.itunes\.apple\.com url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/ReLens+++.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/🌵OldRoll+++.js
 
 
 
