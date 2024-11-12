@@ -31,11 +31,9 @@ const bundle = {
 
 
 const listua = {
-
   'Binsoo': { name: 'vibe', id: 'annual', cm: 'sja' },  //Binsoo-照片滤镜/编辑
   'VSCO': { name: 'pro', id: 'vscopro_global_5999_annual_7D_free', cm: 'sja' }  //VSCO-照片与视频编辑编辑
-  
-};
+  };
 
 
 
