@@ -3,10 +3,7 @@
 项目名称：iTunes-系列解锁合集
 更新日期：2024-10-17
 
-特别说明：此脚本可能会导致App Store无法登录ID
-解决方法：关[MITM][脚本][代理工具]方法选一即可
-
-*************************************/
+*************************************
 
 [rewrite_local]
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/iTunes+++.js
@@ -14,8 +11,8 @@
 [mitm]
 hostname = buy.itunes.apple.com
 
-*************************************/
 
+*************************************/
 
 
 var Parr = JSON.parse($response.body);
@@ -29,7 +26,6 @@ const lifetimeid = `${bundle_id}.lifetime`;
 const list = {
   'com.zijayrate.analogcam': { cm: 'timea', hx: 'hxpda', id: "com.zijayrate.analogcam.vipforever10", latest: "Parr" },  //oldroll复古相机
   'com.risingcabbage.pro.camera': { cm: 'timea', hx: 'hxpda', id: "com.risingcabbage.pro.camera.yearlysubscription", latest: "🐈" },  //ReLens相机
-  'TheLastFilm': { cm: 'timea', hx: 'hxpda', id: "Filmroll_Pro_1Year", latest: "🐈" },  //最后一卷胶片(需订阅一次)
 };
 
 //内购数据变量
@@ -103,5 +99,5 @@ if (!anchor) {
 Parr["Telegram"] = "https://t.me/wvvvvvvvwv";
 Parr["warning"] = "🈲";
 
-$done({ body: JSON.stringify(Parr) });
 
+$done({ body: JSON.stringify(Parr) });
