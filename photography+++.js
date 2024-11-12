@@ -8,8 +8,8 @@
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/iTunes.js
 
 
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/Reheji+++.js
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/Reheji+++.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/Reheji.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/Reheji.js
 
 
 ^https:\/\/photos\.adobe\.io\/v2\/accounts* url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/Lightroom+++.js
