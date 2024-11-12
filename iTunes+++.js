@@ -9,7 +9,7 @@
 *************************************/
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/iTunes+++.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/iTunes.js
 
 [mitm]
 hostname = buy.itunes.apple.com
@@ -29,6 +29,7 @@ const lifetimeid = `${bundle_id}.lifetime`;
 const list = {
   'com.zijayrate.analogcam': { cm: 'timea', hx: 'hxpda', id: "com.zijayrate.analogcam.vipforever10", latest: "Parr" },  //oldroll复古相机
   'com.risingcabbage.pro.camera': { cm: 'timea', hx: 'hxpda', id: "com.risingcabbage.pro.camera.yearlysubscription", latest: "🐈" },  //ReLens相机
+  'TheLastFilm': { cm: 'timea', hx: 'hxpda', id: "Filmroll_Pro_1Year", latest: "🐈" },  //最后一卷胶片(需订阅一次)
 };
 
 //内购数据变量
@@ -103,3 +104,4 @@ Parr["Telegram"] = "https://t.me/wvvvvvvvwv";
 Parr["warning"] = "🈲";
 
 $done({ body: JSON.stringify(Parr) });
+
