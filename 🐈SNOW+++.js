@@ -3,7 +3,7 @@
 SNOWAI写真
 
 [rewrite_local]
-^https:\/\/user-snow-api\.snow\.me\/v1\/purchase\/subscription\/subscriber\/status$ url script-response-body https://raw.githubusercontent.com/czy13724/Quantumult-X/main/scripts/snow.js
+^https:\/\/user-snow-api\.snow\.me\/v1\/purchase\/subscription\/subscriber\/status$ url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/🐈SNOW+++.js
 
 [mitm]
 hostname = *.snow.me
