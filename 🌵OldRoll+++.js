@@ -1,16 +1,18 @@
 /*************************************
 
-项目名称：OldRoll+++
-更新日期：2024-10-17
+项目名称：🌵OldRoll+++
+更新日期：2024-11
 
-*************************************
+特别说明：此脚本可能会导致App Store无法登录ID
+解决方法：关[MITM][脚本][代理工具]方法选一即可
+
+**************************************
 
 [rewrite_local]
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/🌵OldRoll+++.js
 
 [mitm]
 hostname = buy.itunes.apple.com
-
 
 *************************************/
 
@@ -24,8 +26,8 @@ const yearlysubscription = `${bundle_id}.yearlysubscription`;
 const lifetimeid = `${bundle_id}.lifetime`;
 
 const list = {
-  'com.zijayrate.analogcam': { cm: 'timea', hx: 'hxpda', id: "com.zijayrate.analogcam.vipforever10", latest: "Parr" },  //oldroll复古相机
 
+  'com.zijayrate.analogcam': { cm: 'timea', hx: 'hxpda', id: "com.zijayrate.analogcam.vipforever10", latest: "Parr" },  //oldroll复古相机
 };
 
 //内购数据变量
@@ -81,7 +83,7 @@ for (const i in list) {
     // 判断是否需要加入版本号
     if (version && version.trim() !== '') { Parr["receipt"]["original_application_version"] = version; }
     anchor = true;
-    console.log('恭喜您，已操作成功🎉🎉🎉\n🐈🐈🐈');
+    console.log('恭喜您，已操作成功🎉🎉🎉\n猫: https://t.me/wvvvvvvvwv');
     break;
   }
 }
@@ -93,11 +95,10 @@ if (!anchor) {
   Parr["latest_receipt_info"] = data;
   Parr["pending_renewal_info"] = [{ "product_id": yearlyid, "original_transaction_id": "490001314520000", "auto_renew_product_id": yearlyid, "auto_renew_status": "1" }];
   Parr["latest_receipt"] = "Parr";
-  console.log('很遗憾未能识别出UA或bundle_id\n但已使用备用方案操作成功🎉🎉🎉\n🐈🐈🐈');
+  console.log('很遗憾未能识别出UA或bundle_id\n但已使用备用方案操作成功🎉🎉🎉\n猫: https://t.me/wvvvvvvvwv');
 }
 
 Parr["Telegram"] = "https://t.me/wvvvvvvvwv";
-Parr["warning"] = "🈲";
-
+Parr["warning"] = "学习";
 
 $done({ body: JSON.stringify(Parr) });
