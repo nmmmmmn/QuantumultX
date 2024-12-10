@@ -4,7 +4,7 @@ Grammarlypro-移动输入法
 
 
 [rewrite_local]
-^https?:\/\/.*\.grammarly\.com\/(api\/v\d\/subscription|v\d\/user\/oranonymous) url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/Grammarly.js
+^https?:\/\/.*\.grammarly\.com\/(api\/v\d\/subscription|v\d\/user\/oranonymous) url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/refs/heads/main/Grammarlypro.js
 
 [mitm]
 hostname = *.grammarly.com
