@@ -3,7 +3,7 @@
 
 
 [rewrite_local]
-^https?:\/\/.*\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/SONWEPIK.js
+^https?:\/\/.*\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/refs/heads/main/SONWEPIK.js
 
 [mitm]
 hostname = *.snow.me
