@@ -6,7 +6,7 @@
 
 
 [rewrite_local]
-https?:\/\/rni\-endpoint\-films\-prd\-dbaeb2e5fce4g5hg\.z02\.azurefd\.net url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/RNIFilmspro.js
+https?:\/\/rni\-endpoint\-films\-prd\-dbaeb2e5fce4g5hg\.z02\.azurefd\.net url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/refs/heads/main/RNIFilmspro.js
 
 [MITM]
 hostname = rni-endpoint-films-prd-dbaeb2e5fce4g5hg.z02.azurefd.net
