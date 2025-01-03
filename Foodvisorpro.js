@@ -23,7 +23,6 @@ if(typeof $response == "undefined") {
     let subscriber = body.subscriber;
     let bundle_id = $request.headers["X-Client-Bundle-ID"]?$request.headers["X-Client-Bundle-ID"]:$request.headers["User-Agent"].match(/^[%a-zA-Z0-9]+/)[0];
     const list = [
-    
     {"app_name":"Foodvisor","bundle_id":"com.foodvisor.Foodvisor","product_id":"com.foodvisor.Foodvisor.lifetime","entitlements":["coaching","daily_assessment","diet_article","full_access","journal","nutritional_facts","premium","recipe"],"version":"7.5.1"},
     {"app_name":"Fiery%20Feeds","bundle_id":"net.voidstern.fiery-feeds","product_id":"net.voidstern.fieryfeeds.yearly.trial","entitlements":["com.fieryfeeds.pro"],"version":"2.12.5"}
    ];  
