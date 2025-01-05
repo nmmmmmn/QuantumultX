@@ -5,7 +5,7 @@
 ***************************
 
 [rewrite_local]
-https://api.(meiease|picsart).(cn|com)/gw-v2/shop/subscription/apple/purchases url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/refs/heads/main/Picsart.js
+https://api.(meiease|picsart).(cn|com)/gw-v2/shop/subscription/apple/purchases url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/refs/heads/main/Picsartpro.js
 
 hostname = api.meiease.*,api.picsart.*
 
