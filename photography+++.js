@@ -16,7 +16,7 @@
 
 ^https?:\/\/.*oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify\/apple) url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/Focos+++.js
 
-^https?:\/\/server\.zbisq\.com\/fimo-user url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/FIMO+++.js
+^https?:\/\/fimo\.appfimo\.com\/fimo-user\/user url script-response-body https://raw.githubusercontent.com/0l23456789/Quantumult-X/main/FIMOPRO.js
 
 ^https?:\/\/purchase-foodiecn-api.yiruikecorp.com\/v1\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/Foodie+++.js
 
@@ -25,4 +25,4 @@
 
 
 [mitm]
-hostname =  buy.itunes.apple.com, api.revenuecat.com, photos.adobe.io, *.oracle.bendingspoonsapps.com, server.zbisq.com, purchase-qingtu-api.b612kaji.com,api-qingtu.kajicam.com,purchase-tianyan-api.tianyancam.com,purchase-foodiecn-api.yiruikecorp.com
+hostname =  buy.itunes.apple.com, api.revenuecat.com, photos.adobe.io, *.oracle.bendingspoonsapps.com, fimo.appfimo.com, purchase-qingtu-api.b612kaji.com,api-qingtu.kajicam.com,purchase-tianyan-api.tianyancam.com,purchase-foodiecn-api.yiruikecorp.com
