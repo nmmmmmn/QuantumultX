@@ -6,7 +6,7 @@
 ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/R.js
 
 [mitm]
-hostname = api.revenuecat.com,api.rc-backup.com
+hostname = api.revenuecat.com
 
 */
 
