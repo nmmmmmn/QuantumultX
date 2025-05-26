@@ -3,7 +3,7 @@
 
 [rewrite_local]
 ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/R.js
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/R.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/0OOOOOOOO/OOO/refs/heads/main/O.js
 
 [mitm]
 hostname = api.revenuecat.com
