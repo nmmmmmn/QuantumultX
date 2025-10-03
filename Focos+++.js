@@ -1,4 +1,4 @@
-/***********************************
+/*
 
          
           
@@ -7,12 +7,13 @@
 ^https?:\/\/.*\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/.+|purchases\/verify) url script-response-body https://raw.githubusercontent.com/nmmmmmn/QuantumultX/main/Focos+++.js
 
 
+
 [mitm]
  
 hostname = *.oracle.bendingspoonsapps.com
 
 
-***********************************/
+*/
 
 
 
